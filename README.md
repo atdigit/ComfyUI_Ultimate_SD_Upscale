@@ -23,7 +23,7 @@ Video tutorial on how to use ComfyUI, a powerful and modular Stable Diffusion GU
 
 You can use the [Official ComfyUI Notebook](https://colab.research.google.com/github/comfyanonymous/ComfyUI/blob/master/notebooks/comfyui_colab.ipynb) to run these schemas in Google Colab.
 To successfully complete the above schemes add the following code to the above Colab notebook to the end of second (Checkpoints) cell:
-<a name="example"></a>
+<a name="code_to_copy"></a>
 ```
 !wget -c https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11u_sd15_tile_fp16.safetensors -P ./models/controlnet/
 
