@@ -21,7 +21,7 @@ Video tutorial on how to use ComfyUI, a powerful and modular Stable Diffusion GU
 ![Clip](https://github.com/atdigit/ComfyUI_Ultimate_SD_Upscale/assets/105158639/d86cee8a-e7a6-4ddb-9200-f2e589e2ddc2)
 **↑ Node setup 3: Postprocess any custom image with USDU with no upscale: (Save portrait to your PC and then drag and drop it into you ComfyUI interface, drag and drop image you want to upscale to Load Image node and replace prompt with your's, press "Queue Prompt")**
 
-You can use the [Official ComfyUI Notebook](https://colab.research.google.com/github/comfyanonymous/ComfyUI/blob/master/notebooks/comfyui_colab.ipynb) to run these schemas in Google Colab.
+You can use the [Official ComfyUI Notebook](https://colab.research.google.com/github/comfyanonymous/ComfyUI/blob/master/notebooks/comfyui_colab.ipynb) to run these generations in Google Colab.
 To successfully complete the above schemes add the following code to the above Colab notebook to the end of second (Checkpoints) cell:
 <a name="code_to_copy"></a>
 ```
