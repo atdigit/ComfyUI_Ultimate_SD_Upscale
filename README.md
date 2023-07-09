@@ -20,3 +20,16 @@ Video tutorial on how to use ComfyUI, a powerful and modular Stable Diffusion GU
 ![ComfyUI_00220_](https://github.com/atdigit/ComfyUI_Ultimate_SD_Upscale/assets/105158639/431c84f7-e04b-4da3-9b36-cdecc566ccea)
 ![Clip](https://github.com/atdigit/ComfyUI_Ultimate_SD_Upscale/assets/105158639/d86cee8a-e7a6-4ddb-9200-f2e589e2ddc2)
 **↑ Node setup 3: Postprocess any custom image with USDU with no upscale: (Save portrait to your PC and then drag and drop it into you ComfyUI interface, drag and drop image you want to upscale to Load Image node and replace prompt with your's, press "Queue Prompt")**
+
+P.S. Вы можете использовать [официльный блокнот ComfyUI](https://colab.research.google.com/github/comfyanonymous/ComfyUI/blob/master/notebooks/comfyui_colab.ipynb) для запуска данных схем в Google Colab.
+Для успешного выполнения приведенных схем, прежде чем запускать, добавь в приведенный выше блокнот Colab следующий код: 
+
+| Code to copy |
+| --------------- |
+| !wget -c https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11u_sd15_tile_fp16.safetensors -P ./models/controlnet/
+
+!wget -c https://huggingface.co/lokCX/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth -P ./models/upscale_models/
+
+!cd custom_nodes && git clone https://github.com/ssitu/ComfyUI_UltimateSDUpscale --recursive
+
+
